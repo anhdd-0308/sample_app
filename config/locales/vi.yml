@@ -14,6 +14,10 @@ vi:
       news: "Tin tức"
       by: "viết bởi"
       tutor: "Hướng dẫn Ruby on Rails"
+  shared:
+    error_messages:
+      intro: "Biểu mẫu chứa"
+      error: "lỗi"
   static_pages:
     home:
       heading: "Trang chủ"
@@ -48,3 +52,12 @@ vi:
     new:
       signup: "Đăng ký"
       intro: "Trang đăng ký cho người dùng mới."
+      name: "Họ và tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+    create:
+      success: Chào mừng bạn đến với Sample App, %{name}!
+      danger: Đã có lỗi xảy ra khi đăng kí tài khoản của bạn!
+    show:
+      flash: "Người dùng không tồn tại !"

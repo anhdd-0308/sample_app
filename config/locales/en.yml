@@ -15,6 +15,10 @@ en:
       news: "News"
       by: "by"
       tutor: "Ruby on Rails Tutorial"
+  shared:
+    error_messages:
+      intro: "The form contains"
+      error: "error"
   static_pages:
     home:
       heading: "Home"
@@ -49,3 +53,12 @@ en:
     new:
       signup: "Sign up"
       intro: "Sign up page for new users."
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirm Password"
+    create:
+      success: Welcome to the Sample App, %{name}!
+      danger: "There was something wrong with your account!"
+    show:
+      flash: "User not found !"

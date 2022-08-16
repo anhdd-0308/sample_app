@@ -5,7 +5,12 @@ vi:
     header:
       home: "Trang chủ"
       help: "Hỗ trợ"
+      users: "Người dùng"
       login: "Đăng nhập"
+      logout: "Đăng xuất"
+      profile: "Hồ sơ"
+      account: "Tài khoản"
+      settings: "Cài đặt"
       vi: "Tiếng Việt"
       en: "Tiếng Anh"
     footer:
@@ -61,3 +66,12 @@ vi:
       danger: Đã có lỗi xảy ra khi đăng kí tài khoản của bạn!
     show:
       flash: "Người dùng không tồn tại !"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      email: "Địa chỉ email"
+      password: "Password"
+      signup: "Đăng ký ngay!"
+      new_user: "Người dùng mới?"
+    create:
+      invalid_email_password_combination: "Email và password không trùng khớp"

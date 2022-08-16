@@ -13,13 +13,13 @@
     "files.trimFinalNewlines": true,
     "workbench.startupEditor": "newUntitledFile",
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Atom One Dark",
+    "workbench.colorTheme": "Dracula",
     "javascript.format.enable": false,
     "javascript.format.insertSpaceAfterCommaDelimiter": false,
     "javascript.format.insertSpaceAfterConstructor": false,
     "[ruby]": {
       "editor.formatOnSave": false
     },
-    "workbench.iconTheme": "vscode-great-icons"
+    "workbench.iconTheme": "material-icon-theme"
   }
 }

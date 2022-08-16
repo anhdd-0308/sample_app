@@ -6,7 +6,13 @@ en:
     header:
       home: "Home"
       help: "Help"
+      users: "Users"
       login: "Log in"
+      logout: "Log out"
+      profile: "Profile"
+      account: "Account"
+      settings: "Settings"
+      app: "Sample App"
       vi: "Vietnamese"
       en: "English"
     footer:
@@ -62,3 +68,12 @@ en:
       danger: "There was something wrong with your account!"
     show:
       flash: "User not found !"
+  sessions:
+    new:
+      login: "Log in"
+      email: "Email"
+      password: "Password"
+      signup: "Sign up now!"
+      new_user: "New user?"
+    create:
+      invalid_email_password_combination: "Invalid email/password combination"

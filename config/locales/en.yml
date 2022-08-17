@@ -1,5 +1,4 @@
 en:
-  hello: "Hello world"
   base_title: "Ruby on Rails Tutorial Sample App"
   sample_app: "Sample App"
   layouts:
@@ -12,7 +11,6 @@ en:
       profile: "Profile"
       account: "Account"
       settings: "Settings"
-      app: "Sample App"
       vi: "Vietnamese"
       en: "English"
     footer:
@@ -59,6 +57,7 @@ en:
     new:
       signup: "Sign up"
       intro: "Sign up page for new users."
+    form:
       name: "Name"
       email: "Email"
       password: "Password"
@@ -66,8 +65,28 @@ en:
     create:
       success: Welcome to the Sample App, %{name}!
       danger: "There was something wrong with your account!"
+    edit:
+      edit: "Edit user"
+      save: "Save changes"
+      intro: "Update your profile"
+      danger: "Please log in!"
+      incorrect_user: "Incorrect user"
+      not_found: "User not found!"
+      change: "Change"
+    update:
+      success: "Profile updated"
+      danger: "Update failed"
+    index:
+      title: "All users"
+    destroy:
+      success: "User deleted"
+      danger: "User delete fail"
+      incorrect_admin: "Incorrect admin"
+    user:
+      delete: "Delete"
+      confirm : "You sure?"
     show:
-      flash: "User not found !"
+      not_found: "User not found!"
   sessions:
     new:
       login: "Log in"

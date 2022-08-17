@@ -65,6 +65,7 @@ en:
     create:
       success: Welcome to the Sample App, %{name}!
       danger: "There was something wrong with your account!"
+      mail_notice: "Please check your email to complete the registration"
     edit:
       edit: "Edit user"
       save: "Save changes"
@@ -97,3 +98,14 @@ en:
       remember_me: "Remember me on this computer"
     create:
       invalid_email_password_combination: "Invalid email/password combination"
+      account_not_actived: "Account not activated. Check your email for the activation link"
+  account_activation:
+    edit:
+      success: "Account activated"
+      danger: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      account_activation: "Account activation"
+      welcome_to: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+      hi: "Hi"

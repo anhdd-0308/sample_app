@@ -65,6 +65,7 @@ vi:
     create:
       success: Chào mừng bạn đến với Sample App, %{name}!
       danger: Đã có lỗi xảy ra khi đăng kí tài khoản của bạn!
+      mail_notice: "Hãy kiểm tra mail để  hoàn tất đăng ký"
     edit:
       edit: "Chỉnh sửa thông tin"
       save: "Lưu thay đổi"
@@ -97,3 +98,14 @@ vi:
       remember_me: "Ghi nhớ đăng nhập trên máy tính này"
     create:
       invalid_email_password_combination: "Email và password không trùng khớp"
+      account_not_actived: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt"
+  account_activations:
+    edit:
+      success: "Tài khoản đã được kích hoạt"
+      danger: "Kích họat không hợp lệ"
+  user_mailer:
+    account_activation:
+      account_activation: "Kích hoạt tài khoản"
+      welcome_to: "Chào mừng bạn đến với Sample App, click vào link bên dưới để kích hoạt tài khoản"
+      activate: "Kích hoạt"
+      hi: "Chào"

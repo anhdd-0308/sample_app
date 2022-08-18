@@ -44,3 +44,6 @@ yarn-debug.log*
 config/settings.local.yml
 config/settings/*
 config/environments/*
+
+# Ignore application configuration
+/config/application.yml

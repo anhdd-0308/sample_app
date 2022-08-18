@@ -23,6 +23,13 @@ en:
     error_messages:
       intro: "The form contains"
       error: "error"
+    micropost_form:
+      new_micropost: "Compose new micropost..."
+      post: "Post"
+      large_img_error: "Maximum file size is 5MB. Please choose a smaller file."
+    user_info:
+      view_my_profile: "View my profile"
+      micropost: "micropost"
   static_pages:
     home:
       heading: "Home"
@@ -31,6 +38,8 @@ en:
       signup: "Sign up now!"
       tutor: "Ruby on Rails Tutorial"
       app: "sample application"
+      micropost_feed: "Micropost Feed"
+      rails_href: "Ruby on Rails Tutorial"
     help:
       heading: "Help"
       intro: "Get help on the Ruby on Rails Tutorial at the"
@@ -79,15 +88,17 @@ en:
       danger: "Update failed"
     index:
       title: "All users"
+      danger: "Please log in!"
     destroy:
       success: "User deleted"
       danger: "User delete fail"
       incorrect_admin: "Incorrect admin"
     user:
       delete: "Delete"
-      confirm : "You sure?"
+      confirm: "You sure?"
     show:
       not_found: "User not found!"
+      danger: "Please log in!"
   sessions:
     new:
       login: "Log in"
@@ -138,4 +149,26 @@ en:
       empty: "can't be empty"
       reset_pass: "Password has been reset."
       not_reset_pass: "Can't reset password."
-      exprired : "Password reset has expired."
+      exprired: "Password reset has expired."
+  microposts:
+    create:
+      not_log_in: "Please log in!"
+      save_success: "Micropost created!"
+    destroy:
+      micropost_deleted: "Micropost deleted"
+      not_micropost_deleted: "Microposts cannot be deleted"
+    micropost:
+      posted: "Posted"
+      ago: "ago."
+      delete: "delete"
+      you_sure: "You sure?"
+    find_micropost:
+      find_micropost_fail: "Cannot find micropost"
+activerecord:
+  errors:
+    models:
+      micropost:
+        attributes:
+          image:
+            wrong_format: "Must be a valid image format"
+            too_big: "Image size is too big"

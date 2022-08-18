@@ -19,9 +19,22 @@ validations:
     password_minlength: 6
     password_maxlength: 15
     avatar_size: 80
+  micropost:
+    content_max_length: 140
 
 paginate:
   limit: 20
 
 password:
   expired: 2
+
+micropost:
+  content_max: 140
+  accept_path: "image/jpeg,image/gif,image/png"
+  size: 50
+  image_type: ["image/jpeg", "image/gif", "image/png"]
+  resize_to_limit: [500, 500]
+  image_size: 5
+
+user_info:
+  size: 50

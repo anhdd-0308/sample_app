@@ -23,6 +23,13 @@ vi:
     error_messages:
       intro: "Biểu mẫu chứa"
       error: "lỗi"
+    micropost_form:
+      new_micropost: "Hãy viết bài đăng mới..."
+      post: "Đăng"
+      large_img_error: "Kích cỡ tối đa của ảnh là 5MB, hãy chọn ảnh nhỏ hơn."
+    user_info:
+      view_my_profile: "Xem bài đăng của tôi"
+      micropost: "bài đăng"
   static_pages:
     home:
       heading: "Trang chủ"
@@ -31,6 +38,8 @@ vi:
       signup: "Đăng ký ngay"
       tutor: "Hướng dẫn Ruby on Rails"
       app: "ứng dụng mẫu "
+      micropost_feed: "Các bài đăng"
+      rails_href: "Hướng dẫn Ruby on Rails"
     help:
       heading: "Hỗ trợ"
       intro: "Nhận trợ giúp về  Ruby on Rails tại"
@@ -79,6 +88,7 @@ vi:
       danger: "Cập nhật hồ sơ thất bại"
     index:
       title: "Tất cả người dùng"
+      danger: "Hãy đăng nhập!"
     destroy:
       success: "Đã xóa người dùng"
       danger: "Xóa người dùng thất bại"
@@ -87,7 +97,8 @@ vi:
       delete: "Xóa"
       confirm: "Bạn chắc chắn muốn xóa?"
     show:
-      not_found: "Người dùng không tồn tại !"
+      not_found: "Người dùng không tồn tại!"
+      danger: "Hãy đăng nhập!"
   sessions:
     new:
       login: "Đăng nhập"
@@ -138,3 +149,25 @@ vi:
       reset_pass: "Mật khẩu đã được đặt lại."
       not_reset_pass: "Không thể  đặt lại mật khẩu"
       exprired: "Đã hết thời gian đặt lại mật khẩu"
+  microposts:
+    create:
+      not_log_in: "Hãy đăng nhập"
+      save_success: "Bài viết đã được tạo"
+    destroy:
+      micropost_deleted: "Bài viết đã bị xóa"
+      not_micropost_deleted: "Không thể xóa bài viết"
+    micropost:
+      posted: "Bài viết được đăng"
+      ago: "trước."
+      delete: "Xóa"
+      you_sure: "Bạn chắc chứ?"
+    find_micropost:
+      find_micropost_fail: "Không thể tìm thấy micropost"
+activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              wrong_format: "Phải là định dạng hình ảnh hợp lệ"
+              too_big: "Kích thước hình ảnh quá lớn"

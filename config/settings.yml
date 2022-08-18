@@ -22,3 +22,6 @@ validations:
 
 paginate:
   limit: 20
+
+password:
+  expired: 2

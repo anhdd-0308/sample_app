@@ -57,6 +57,7 @@ vi:
     new:
       signup: "Đăng ký"
       intro: "Trang đăng ký cho người dùng mới."
+    form:
       name: "Họ và tên"
       email: "Email"
       password: "Mật khẩu"
@@ -64,8 +65,28 @@ vi:
     create:
       success: Chào mừng bạn đến với Sample App, %{name}!
       danger: Đã có lỗi xảy ra khi đăng kí tài khoản của bạn!
+    edit:
+      edit: "Chỉnh sửa thông tin"
+      save: "Lưu thay đổi"
+      intro: "Chỉnh sửa thông tin"
+      danger: "Hãy đăng nhập!"
+      incorrect_user: "Bạn không thể  sửa thông tin của người khác"
+      not_found: "Người dùng không tồn tại!"
+      change: "Thay đổi"
+    update:
+      success: "Cập nhật hồ sơ thành công"
+      danger: "Cập nhật hồ sơ thất bại"
+    index:
+      title: "Tất cả người dùng"
+    destroy:
+      success: "Đã xóa người dùng"
+      danger: "Xóa người dùng thất bại"
+      incorrect_admin: "Bạn không phải là admin"
+    user:
+      delete: "Xóa"
+      confirm: "Bạn chắc chắn muốn xóa?"
     show:
-      flash: "Người dùng không tồn tại !"
+      not_found: "Người dùng không tồn tại !"
   sessions:
     new:
       login: "Đăng nhập"

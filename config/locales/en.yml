@@ -43,6 +43,7 @@ en:
       app: "sample application"
       micropost_feed: "Micropost Feed"
       rails_href: "Ruby on Rails Tutorial"
+      search_btn: "Search micropost"
     help:
       heading: "Help"
       intro: "Get help on the Ruby on Rails Tutorial at the"

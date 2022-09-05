@@ -3,7 +3,9 @@ class StaticPagesController < ApplicationController
     return unless logged_in?
 
     @micropost = current_user.microposts.build
-    @pagy, @feed_items = pagy current_user.feed, items: Settings.paginate.limit
+    @search = current_user.feed.ransack(params[:q])
+    @pagy, @feed_items = pagy @search.result.newest,
+                              items: Settings.paginate.limit
   end
 
   def help; end

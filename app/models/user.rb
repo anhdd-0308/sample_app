@@ -79,7 +79,7 @@ class User < ApplicationRecord
   end
 
   def feed
-    microposts.by_user_ids following_ids << id
+    Micropost.newest.by_user_ids following_ids << id
   end
 
   def follow other_user

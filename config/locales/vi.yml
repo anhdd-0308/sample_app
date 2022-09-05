@@ -43,6 +43,7 @@ vi:
       app: "ứng dụng mẫu "
       micropost_feed: "Các bài đăng"
       rails_href: "Hướng dẫn Ruby on Rails"
+      search_btn: "Tìm kiếm bài viết"
     help:
       heading: "Hỗ trợ"
       intro: "Nhận trợ giúp về  Ruby on Rails tại"

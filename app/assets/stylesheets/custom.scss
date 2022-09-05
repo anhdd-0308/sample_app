@@ -191,6 +191,21 @@ span.image {
   padding: 0;
 }
 
+.search_btn {
+  width: 30%;
+  margin-left: 10px;
+}
+
+.search_input {
+  margin: 0;
+}
+
+.search_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
   padding-top: 60px;
 }
